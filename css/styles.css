@@ -868,6 +868,7 @@ img {
   background-color: #4d5ae5;
   border: none;
   border-radius: 4px;
+  margin: auto;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -942,4 +943,133 @@ input:checked + .modal-label-checkbox span:first-child {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
+}
+
+@media screen and (max-width: 768px) {
+  /* ALL */
+  body {
+  }
+
+  .container {
+    width: 768px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  /* HEADER */
+  .logo-link {
+    margin-right: 120px;
+  }
+
+  .address-list {
+    display: block;
+    padding-left: 121px;
+    margin: 0;
+  }
+
+  .phone-email {
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 116.667%;
+    letter-spacing: 0.48px;
+  }
+
+  /* HERO */
+  .hero-page {
+    padding: 112px 0px 124px 0px;
+  }
+
+  /* SECTION 2 */
+  .section-one {
+    padding: 96px 0;
+  }
+
+  .section-one-icons {
+    display: none;
+  }
+
+  .section-one-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /* .section-one-list-media {
+  } */
+
+  .section-one-list-child {
+    width: 100%;
+    max-width: 356px;
+  }
+
+  .feature-title {
+    max-width: 264px;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 111.111%;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+  }
+
+  .feature-content-section-two {
+    max-width: 100%;
+    color: #434455;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.32px;
+  }
+
+  /* SECTION 3 */
+  .section-two {
+    display: none;
+  }
+
+  /* SECTION 4 */
+  .section-three {
+    padding: 96px 0;
+  }
+
+  .section-three-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* SECTION 5 */
+  .section-five {
+    padding: 96px 0px;
+  }
+
+  .section-five-ul-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* FOOTER */
+  .foooter-bg {
+    padding: 96px 0;
+  }
+
+  .footer-div {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .footer-div-logo {
+    padding-left: 108px;
+    margin-bottom: 72px;
+  }
+
+  .footer-subscribe {
+    margin-left: 108px;
+  }
 }
