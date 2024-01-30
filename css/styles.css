@@ -243,6 +243,7 @@ img {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  justify-content: center;
 }
 
 .portfolio-link {
@@ -635,6 +636,7 @@ img {
 .buttons-list {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 24px;
   margin-bottom: 72px;
 }
@@ -1200,6 +1202,10 @@ input:checked + .modal-label-checkbox span:first-child {
     display: flex;
     justify-content: center;
     gap: 56px;
+  }
+
+  .portfolio-link {
+    width: 356px;
   }
 }
 
